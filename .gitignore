@@ -1,0 +1,25 @@
+# Environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large / raw data protection (per program data-privacy guidelines)
+# Raw and processed CSVs are kept small & synthetic here, but the pattern
+# below is what a real submission should use once real vendor data is involved.
+*.xlsx
+data/raw/*.csv.large
+data/processed/*.csv.large
+
+# OS / editor junk
+.DS_Store
+.vscode/
+*.swp
+
+# Secrets - never commit credentials or connection strings
+.env
+*.pem
+secrets.json
