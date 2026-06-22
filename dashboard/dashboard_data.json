@@ -1,0 +1,211 @@
+{
+  "kpis": {
+    "total_bookings": 5767,
+    "cancel_rate": 0.3154152939136466,
+    "avg_adr": 114.20623305011269,
+    "avg_lead_time": 60.54967920929426,
+    "high_risk_bookings": 1148
+  },
+  "monthly": [
+    {
+      "arrival_date_month": "January",
+      "bookings": 504,
+      "avg_adr": 91.11857142857143,
+      "cancel_rate": 0.3055555555555556
+    },
+    {
+      "arrival_date_month": "February",
+      "bookings": 501,
+      "avg_adr": 90.50962075848304,
+      "cancel_rate": 0.3213572854291417
+    },
+    {
+      "arrival_date_month": "March",
+      "bookings": 507,
+      "avg_adr": 106.17471400394477,
+      "cancel_rate": 0.32938856015779094
+    },
+    {
+      "arrival_date_month": "April",
+      "bookings": 463,
+      "avg_adr": 108.58362850971922,
+      "cancel_rate": 0.2937365010799136
+    },
+    {
+      "arrival_date_month": "May",
+      "bookings": 469,
+      "avg_adr": 112.51039232409383,
+      "cancel_rate": 0.2878464818763326
+    },
+    {
+      "arrival_date_month": "June",
+      "bookings": 497,
+      "avg_adr": 123.54733199195171,
+      "cancel_rate": 0.36016096579476864
+    },
+    {
+      "arrival_date_month": "July",
+      "bookings": 474,
+      "avg_adr": 140.84139029535865,
+      "cancel_rate": 0.2890295358649789
+    },
+    {
+      "arrival_date_month": "August",
+      "bookings": 509,
+      "avg_adr": 146.89140471512772,
+      "cancel_rate": 0.3025540275049116
+    },
+    {
+      "arrival_date_month": "September",
+      "bookings": 489,
+      "avg_adr": 121.03395705521473,
+      "cancel_rate": 0.3169734151329243
+    },
+    {
+      "arrival_date_month": "October",
+      "bookings": 490,
+      "avg_adr": 103.1041918367347,
+      "cancel_rate": 0.32653061224489793
+    },
+    {
+      "arrival_date_month": "November",
+      "bookings": 426,
+      "avg_adr": 94.69621361502347,
+      "cancel_rate": 0.2981220657276995
+    },
+    {
+      "arrival_date_month": "December",
+      "bookings": 438,
+      "avg_adr": 131.2997214611872,
+      "cancel_rate": 0.3515981735159817
+    }
+  ],
+  "lead_time": [
+    {
+      "lead_time_bucket": "0-7 days",
+      "is_canceled": 0.2158273381294964
+    },
+    {
+      "lead_time_bucket": "8-30 days",
+      "is_canceled": 0.2421116504854369
+    },
+    {
+      "lead_time_bucket": "31-90 days",
+      "is_canceled": 0.3119395941481831
+    },
+    {
+      "lead_time_bucket": "91-180 days",
+      "is_canceled": 0.4035608308605341
+    },
+    {
+      "lead_time_bucket": "180+ days",
+      "is_canceled": 0.6836734693877551
+    }
+  ],
+  "deposit": [
+    {
+      "deposit_type": "No Deposit",
+      "is_canceled": 0.25348189415041783
+    },
+    {
+      "deposit_type": "Non Refund",
+      "is_canceled": 0.5602049530315969
+    },
+    {
+      "deposit_type": "Refundable",
+      "is_canceled": 0.2465277777777778
+    }
+  ],
+  "customer_type": [
+    {
+      "customer_type": "Contract",
+      "is_canceled": 0.2955665024630542
+    },
+    {
+      "customer_type": "Group",
+      "is_canceled": 0.3009009009009009
+    },
+    {
+      "customer_type": "Transient",
+      "is_canceled": 0.2983018263377123
+    },
+    {
+      "customer_type": "Transient-Party",
+      "is_canceled": 0.3650472334682861
+    }
+  ],
+  "segment": [
+    {
+      "customer_segment": "Early Planner - Corporate/Contract",
+      "bookings": 754,
+      "avg_adr": 114.66952652519895,
+      "cancel_rate": 0.4389920424403183
+    },
+    {
+      "customer_segment": "Early Planner - Leisure/Transient",
+      "bookings": 1382,
+      "avg_adr": 114.55529811866859,
+      "cancel_rate": 0.40014471780028943
+    },
+    {
+      "customer_segment": "Last-Minute Booker - Corporate/Contract",
+      "bookings": 1337,
+      "avg_adr": 112.98011368735978,
+      "cancel_rate": 0.2916978309648467
+    },
+    {
+      "customer_segment": "Last-Minute Booker - Leisure/Transient",
+      "bookings": 2294,
+      "avg_adr": 114.55827768090671,
+      "cancel_rate": 0.23757628596338273
+    }
+  ],
+  "hotel_split": [
+    {
+      "hotel": "City Hotel",
+      "bookings": 3719,
+      "avg_adr": 104.56481554181231,
+      "cancel_rate": 0.3159451465447701
+    },
+    {
+      "hotel": "Resort Hotel",
+      "bookings": 2048,
+      "avg_adr": 131.71425634765626,
+      "cancel_rate": 0.314453125
+    }
+  ],
+  "top_countries": [
+    {
+      "country": "PRT",
+      "bookings": 1421
+    },
+    {
+      "country": "GBR",
+      "bookings": 812
+    },
+    {
+      "country": "USA",
+      "bookings": 779
+    },
+    {
+      "country": "ESP",
+      "bookings": 610
+    },
+    {
+      "country": "FRA",
+      "bookings": 563
+    },
+    {
+      "country": "DEU",
+      "bookings": 453
+    },
+    {
+      "country": "ITA",
+      "bookings": 372
+    },
+    {
+      "country": "IND",
+      "bookings": 343
+    }
+  ]
+}
