@@ -28,7 +28,7 @@ travel-hospitality-analytics/
 │   └── hotel_booking_analysis.ipynb   # full Week 1-4 analysis (cleaning → EDA → modeling)
 ├── reports/                     # exported chart images referenced in the final report
 ├── dashboard/
-│   ├── dashboard.html           # interactive Power BI-style dashboard (open directly in a browser)
+│   ├── Hotel_Dashboard.pbix          # Add Power BI dashboard.
 │   ├── dashboard_data.json      # aggregates powering the dashboard
 │   └── POWER_BI_GUIDE.md        # step-by-step guide to rebuild this as a native .pbix
 ├── src/
