@@ -27,8 +27,8 @@ travel-hospitality-analytics/
 ├── notebooks/
 │   └── hotel_booking_analysis.ipynb   # full Week 1-4 analysis (cleaning → EDA → modeling)
 ├── reports/                     # exported chart images referenced in the final report
-├── dashboard/
-│   ├── Hotel_Dashboard.pbix          # Add Power BI dashboard.
+├── dashboard/│   
+    ├── Hotel_Dashboard.pbix          # Add Power BI dashboard.
 │   ├── dashboard_data.json      # aggregates powering the dashboard
 │   └── POWER_BI_GUIDE.md        # step-by-step guide to rebuild this as a native .pbix
 ├── src/
@@ -62,7 +62,7 @@ python src/generate_dataset.py
 jupyter nbconvert --to notebook --execute --inplace notebooks/hotel_booking_analysis.ipynb
 
 # 3. Open the interactive dashboard
-open dashboard/dashboard.html      # or just double-click the file
+open dashboard/dashboard.pbix     # open to powerBi App.
 ```
 
 ## Methodology (maps to the 4-week roadmap)
